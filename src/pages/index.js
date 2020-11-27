@@ -15,12 +15,13 @@ export default ({ data }) => {
     <>
       <Seo />
       <h1>
-        My name is Bonneville. I'm a starter theme for Gatsby and I like to talk
-        as if I am a living thing
+          Hello, my name is Doug Mellon.
       </h1>
-      <FeaturedItems>
-        {allMarkdownRemark.totalCount} Featured Posts
-      </FeaturedItems>
+        <h4>
+            I'm a software engineering student at the University of Northern Colorado. I am
+            currently in search of an internship for summer 2021. If you believe I would be a good fit for your team, I
+            would love to chat.
+        </h4>
       {allMarkdownRemark.edges.map(({ node }) => (
         <BlogItem
           fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
