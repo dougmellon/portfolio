@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Seo from "../components/SEO"
 import BlogItem from "../components/Blog/blog-item"
 import styled from "styled-components"
+import SEO from "../components/SEO";
 
 const FeaturedItems = styled.h4`
   font-size: 1.2rem;
@@ -13,7 +14,10 @@ export default ({ data }) => {
   const { allMarkdownRemark } = data
   return (
     <>
-      <Seo />
+      <Seo
+          title="Doug Mellon :)"
+          description="Doug Mellon"
+      />
       <h1>
           Hello, my name is Doug Mellon.
       </h1>

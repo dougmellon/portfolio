@@ -43,7 +43,7 @@ const ContactPage = () => {
     <>
       <SEO
         title="Get in touch"
-        description="Contact Bonneville about your next project"
+        description="Contact Doug Mellon."
       />
       <h1>I would love to hear from you!</h1>
       <p>
