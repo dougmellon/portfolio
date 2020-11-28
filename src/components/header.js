@@ -167,6 +167,7 @@ export default ({ children }) => {
               <ListLink to="/">Home</ListLink>
               <ListLink to="/portfolio/">Portfolio</ListLink>
               <ListLink to="/journal/">Blog</ListLink>
+              <ListLink to="/readings/">Readings</ListLink>
               <ListLink to="/contact/">Contact</ListLink>
             </ul>
           </nav>
