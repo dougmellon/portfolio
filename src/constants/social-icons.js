@@ -9,11 +9,6 @@ export default [
     name: "LinkedIn",
   },
   {
-    icon: <FaTwitter />,
-    url: "https://www.twitter.com",
-    name: "Twitter",
-  },
-  {
     icon: <DiGithubBadge />,
     url: "https://github.com/bagseye",
     name: "GitHub",
