@@ -45,15 +45,14 @@ const ContactPage = () => {
         title="Get in touch"
         description="Contact Bonneville about your next project"
       />
-      <h1>Get in touch today</h1>
+      <h1>I would love to hear from you!</h1>
       <p>
-        Fusce eu tincidunt felis. Ut auctor urna et nibh lacinia, id efficitur
-        ipsum blandit. Aliquam vulputate sapien sit amet ante varius vestibulum.
-        Morbi sodales, quam quis tincidunt venenatis, nibh lorem viverra velit,
-        ac ultrices ligula nisi id justo. Vestibulum imperdiet fermentum ante eu
-        fermentum. Sed et orci pretium, ullamcorper nisi nec, dignissim erat.
-        Sed eu consequat neque, interdum malesuada eros. Ut maximus gravida
-        malesuada.{" "}
+          <ul>
+              <li><a href="mailto:dm@dougmellon.com">dm(at)dougmellon.com</a></li>
+              <li>(207) 405-8154</li>
+              <li><a href="https://github.com/dougmellon">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/douglas-mellon/">LinkedIn</a></li>
+          </ul>
       </p>
       <Form>
         <form name="contact" netlify>
