@@ -110,20 +110,6 @@ export default ({ children }) => {
 
   return (
     <Footer>
-      <FooterMenu>
-        <li>&copy; {showYear}</li>
-        <li>
-          <a
-            href={data.site.siteMetadata.authorSite}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {data.site.siteMetadata.author}
-          </a>
-        </li>
-        <ListLink to="/privacy/">Privacy</ListLink>
-        <ListLink to="/cookies/">Cookies</ListLink>
-      </FooterMenu>
       <FooterSocial>
         {socials.map((item, index) => {
           return (

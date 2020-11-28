@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../scss/main.scss"
-import Logo from "../content/images/bonneville-logo.svg"
+import Logo from "../content/images/dm-logo.png"
 
 export default ({ children }) => {
   const [menuStatus, menuChange] = useState(false)
@@ -96,10 +96,12 @@ export default ({ children }) => {
 
         img {
           vertical-align: middle;
-          width: 125px;
+          width: auto;
+          height: 40px;
 
           @media (min-width: 768px) {
-            width: 150px;
+            width: auto;
+            height: 40px;
           }
         }
 
@@ -163,7 +165,7 @@ export default ({ children }) => {
           <nav className="nav-cont">
             <ul>
               <ListLink to="/">Home</ListLink>
-              <ListLink to="/about/">About</ListLink>
+              <ListLink to="/resume/">Resume</ListLink>
               <ListLink to="/journal/">Journal</ListLink>
               <ListLink to="/contact/">Contact</ListLink>
             </ul>

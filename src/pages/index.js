@@ -18,10 +18,14 @@ export default ({ data }) => {
           Hello, my name is Doug Mellon.
       </h1>
         <h4>
-            I'm a software engineering student at the University of Northern Colorado. I am
-            currently in search of an internship for summer 2021. If you believe I would be a good fit for your team, I
-            would love to chat.
+            I'm a software engineering student at the University of Northern Colorado with a passion for
+            backend development. Currently, I am conducting undergraduate research on the use of autonomous
+            drones in wildfire mitigation.
         </h4>
+        <h5>
+            I am in search of an internship for summer 2021. If you believe I would be a good fit for
+            your team, I would love to <span>buy you a coffee</span> chat from a distance.
+        </h5>
       {allMarkdownRemark.edges.map(({ node }) => (
         <BlogItem
           fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
