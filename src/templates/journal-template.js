@@ -57,17 +57,15 @@ const JournalTemplate = props => {
 
   return (
     <>
-      <SEO title="Read more about the projects at Bonneville" />
-      <h1>Bonneville Journal</h1>
+      <SEO title="Blog" />
+      <h1>Most recent writings</h1>
       <p>
-        {" "}
-        This is the Bonneville journal. Here you will find an elegant blog
-        system that will help you make announcements to your cleints with ease.
-      </p>
-      <p>
-        Each page displays a maximum of 10 posts before displaying the
-        pagination component. To change the maximum number of posts per page,
-        please visit gatsby-node.js.
+          A mentor once told me to build concepts into memory by journaling as I learn. I guess one could call it a
+          formal method of <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging</a>. So
+          here I am, jumping into this massive world of technical blogging. If you find something you enjoy, I would
+          love to hear about it. If you notice a mistake I made or have a suggestion for a better way of encountering
+          a problem, please don't hesitate to <a href="mailto:dm@dougmellon.com">reach out</a>.
+
       </p>
       {edges.map(({ node }) => (
         <BlogItem

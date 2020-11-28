@@ -15,8 +15,7 @@ export default ({ data }) => {
   return (
     <>
       <Seo
-          title="Doug Mellon :)"
-          description="Doug Mellon"
+          title="Home"
       />
       <h1>
           Hello, my name is Doug Mellon.
