@@ -26,17 +26,6 @@ export default ({ data }) => {
             I am in search of an internship for summer 2021. If you believe I would be a good fit for
             your team, I would love to <span>buy you a coffee</span> chat from a distance.
         </h5>
-      {/*{allMarkdownRemark.edges.map(({ node }) => (*/}
-      {/*  <BlogItem*/}
-      {/*    fluid={node.frontmatter.featuredImage.childImageSharp.fluid}*/}
-      {/*    title={node.frontmatter.title}*/}
-      {/*    excerpt={node.excerpt}*/}
-      {/*    path={node.frontmatter.path}*/}
-      {/*    date={node.frontmatter.date}*/}
-      {/*    alt={node.frontmatter.featuredImageAlt}*/}
-      {/*    tag={node.frontmatter.tags}*/}
-      {/*  />*/}
-      {/*))}*/}
     </>
   )
 }
