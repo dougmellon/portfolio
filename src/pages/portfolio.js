@@ -22,7 +22,7 @@ const AboutPage = () => (
           one to filter by breed restriction lists — ultimately requiring an inquire into the specifics.
       </p>
       <p>
-          I spent some time digging around and quickly realized just how common the issue is. As a result, I set out and
+          I spent some time digging around and quickly realized just how common the issue is. As a result, I set out to
           build a site - beginning in my home city - that allows individuals to locate apartments by specific breed
           restrictions.
       </p>
