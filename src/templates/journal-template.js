@@ -63,7 +63,7 @@ const JournalTemplate = props => {
           A mentor once told me to build concepts into memory by journaling as I learn. I guess one could call it a
           formal method of <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging</a>. So
           here I am, jumping into this massive world of technical blogging. If you find something you enjoy, I would
-          love to hear about it. If you notice a mistake I made or have a suggestion for a better way of encountering
+          love to hear about it. If you notice a mistake I made or have a suggestion for a better way of approaching
           a problem, please don't hesitate to <a href="mailto:dm@dougmellon.com">reach out</a>.
 
       </p>

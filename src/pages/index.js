@@ -14,9 +14,6 @@ export default ({ data }) => {
   const { allMarkdownRemark } = data
   return (
     <>
-      <Seo
-          title="Home"
-      />
       <h1>
           Hello, my name is Doug Mellon.
       </h1>
