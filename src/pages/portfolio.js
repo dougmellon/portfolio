@@ -12,14 +12,8 @@ const AboutPage = () => (
           FidoLease (current project) <span><a href="https://github.com/dougmellon/fidolease-api"><DiGithubBadge /></a></span>
       </h6>
       <p>
-          In 2017, my partner and I moved from California to beautiful Colorado to embark on our college journeys. Upon
-          arrival in the Centennial State, we found apartment hunting to be a challenging task. Not for lack of
-          availability, but due to our large Siberian Husky named Juneau.
-      </p>
-      <p>
-          Huskies have found themselves on the older of two commonly used breed restriction lists. Sites such as Zillow
-          allow the user to select options like "Allows large dogs" and "Allows small dogs" but don't present them with
-          one to filter by breed restriction lists — ultimately requiring an inquire into the specifics.
+          Sites such as Zillow allow the user to select options like "Allows large dogs" and "Allows small dogs" but
+          don't present them with one to filter by breed restriction lists — ultimately requiring an inquire into the specifics.
       </p>
       <p>
           I spent some time digging around and quickly realized just how common the issue is. As a result, I set out to
