@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Bonneville`,
-    titleTemplate: `Douglas Mellon :) - %s`,
+    titleTemplate: `Doug Mellon :) - %s`,
     description: `Blog and portfolio for Doug Mellon.`,
     siteUrl: `https://dougmellon.com`,
     image: `/images/color.jpg`,
