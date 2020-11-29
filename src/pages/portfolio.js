@@ -48,8 +48,8 @@ const AboutPage = () => (
       <h6>Buderflys (internship)</h6>
       <p>
           I spent the summer of 2020 completing a software engineering internship with Buderfly headphones based out of
-          Denver, Colorado. During my summer, I was tasked with creating an in-house tool allowing employees to add
-          podcast and audiobook recommendations to the Shopify storefront.
+          Denver, Colorado. During my summer, I was tasked with creating an in-house tool allowing employees to submit
+          podcast and audiobook recommendations to be added to the Shopify storefront.
       </p>
       <p>
           Based on the limiting scope of Shopify and a small timeframe to complete the project, I decided to develop a
