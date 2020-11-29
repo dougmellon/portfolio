@@ -21,8 +21,19 @@ const ReadingPage = () => {
             <ul id="ul-no-margin">
                 <li><a href="https://alistapart.com">A List Apart</a></li>
                 <li><a href="https://jvns.ca">Julia Evans</a></li>
+                <li><a href="https://www.joelonsoftware.com">Joel on Software</a></li>
                 <li><a href="https://engineering.linkedin.com/blog">LinkedIn Engineering Blog</a></li>
                 <li><a href="https://netflixtechblog.com/?source=rss----2615bd06b42e---4&gi=5adff2ac9118">The Netflix Tech Blog</a></li>
+                <li><a href="https://medium.com/airbnb-engineering">AirBnB Engineering and Data Science</a></li>
+                <li><a href="http://www.paulgraham.com/articles.html">Paul Graham</a></li>
+                <li><a href="https://stripe.com/blog/engineering">Stripe Engineering Blog</a></li>
+                <li><a href="https://engineering.atspotify.com">Spotify Engineering Blog</a></li>
+                <li><a href="https://paulstamatiou.com">Paul Stamatiou</a></li>
+                <li><a href="https://engineering.squarespace.com">SquareSpace Engineering</a></li>
+                <li><a href="https://blog.twitter.com/engineering/en_us.html">Twitter Engineering Blog</a></li>
+                <li><a href="http://blog.cleancoder.com">The Clean Code Blog</a></li>
+                <li><a href="https://stackoverflow.blog">Stack Overflow Blog</a></li>
+                <li><a href="https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fblog.cloudflare.com%2Frss.xml">The Cloudfare Blog</a></li>
             </ul>
         </>
     )
