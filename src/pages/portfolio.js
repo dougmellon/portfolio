@@ -12,7 +12,7 @@ const AboutPage = () => (
           FidoLease (current project) <span><a href="https://github.com/dougmellon/fidolease-api"><DiGithubBadge /></a></span>
       </h6>
       <p>
-          Sites such as Zillow allow the user to select options like "Allows large dogs" and "Allows small dogs" but
+          Sites such as Zillow allow the user to select options such as "Allows large dogs" and "Allows small dogs" but
           don't present them with one to filter by breed restriction lists — ultimately requiring an inquire into the specifics.
       </p>
       <p>
