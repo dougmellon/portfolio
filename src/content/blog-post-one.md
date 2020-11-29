@@ -1,12 +1,12 @@
 ---
-title: This is a test page header
-description: Testing this out.
+title: Using Autonomous Drones for Wildfire Mitigation 
+description: Repository of information regarding my undergraduate research at the University of Northern Colorado
 date: 2020-11-27
-path: /blog-test
-featuredImage: ./images/dark-sky.jpg
+path: /autonomous-drones-wildfire-mitigation
+featuredImage: ./images/drone.jpg
 featuredImageAlt: "Dark abstract shapes"
-tags: ["programming"]
+tags: ["programming"]["research]
 author: Doug Mellon
 ---
 
-This is just a test page
+I will be updating this page with information regarding my undergraduate research at the University of Northern Colorado.
