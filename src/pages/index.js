@@ -24,7 +24,7 @@ export default ({ data }) => {
         </h4>
         <h5>
             I am in search of an internship for summer 2021. If you believe I would be a good fit for
-            your team, I would love to <span>buy you a coffee</span> chat from a distance.
+            your team, I would love to <span>buy you a coffee</span> <a href="https://www.dougmellon.com/contact/">chat from a distance</a>.
         </h5>
     </>
   )

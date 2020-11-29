@@ -55,7 +55,7 @@ const ContactPage = () => {
           </ul>
       </p>
       <Form>
-        <form name="contact" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           <p>
             <FormLabel for="name">Your Name</FormLabel>
             <FormInput type="text" name="name" />
