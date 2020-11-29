@@ -45,6 +45,20 @@ const AboutPage = () => (
               using CircleCI for deployment.
           </li>
       </ul>
+      <h6>Buderflys (internship)</h6>
+      <p>
+          I spent the summer of 2020 completing a software engineering internship with Buderfly headphones based out of
+          Denver, Colorado. During my summer, I was tasked with creating an in-house tool allowing employees to add
+          podcast and audiobook recommendations to the Shopify storefront.
+      </p>
+      <p>
+          Based on the limiting scope of Shopify and a small timeframe to complete the project, I decided to develop a
+          dashboard allowing employees to log in and fill out a form that sent their recommendation to our database.
+      </p>
+      <p>
+          The PostgreSQL database featured an API layer that I built in Javascript using the Node runtime environment.
+      </p>
+      <ul></ul>
       <h6>Open Source Contributions</h6>
       <ul id="ul-no-margin">
           <li>(Mozilla) Removed links to Firefox lockwise on firefox.com <span><a href="https://github.com/mozilla/blurts-server/issues/1954"><DiGithubBadge /></a></span></li>
