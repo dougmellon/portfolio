@@ -13,7 +13,7 @@ const AboutPage = () => (
       </h6>
       <p>
           In 2017, my partner and I moved from California to beautiful Colorado to embark on our college journeys. Upon
-          arrival in the Centennial State, We found apartment hunting to be a challenging task. Not for lack of
+          arrival in the Centennial State, we found apartment hunting to be a challenging task. Not for lack of
           availability, but due to our large Siberian Husky named Juneau.
       </p>
       <p>
