@@ -55,22 +55,34 @@ const ContactPage = () => {
           </ul>
       </p>
       <Form>
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <FormLabel for="name">Your Name</FormLabel>
-            <FormInput type="text" name="name" />
-          </p>
-          <p>
-            <FormLabel for="email">Email Address</FormLabel>
-            <FormInput type="email" name="email" />
-          </p>
-          <p>
-            <FormLabel for="message">Your Message</FormLabel>
-            <FormTextArea type="text" name="message" />
-          </p>
-          <p>
-            <Button className="btn-link" text="Send Message" type="submit" />
-          </p>
+          <form method="post" data-netlify="true" name="contact">
+          {/*<p>*/}
+          {/*  <FormLabel for="name">Your Name</FormLabel>*/}
+          {/*  <FormInput type="text" name="name" />*/}
+          {/*</p>*/}
+          {/*<p>*/}
+          {/*  <FormLabel for="email">Email Address</FormLabel>*/}
+          {/*  <FormInput type="email" name="email" />*/}
+          {/*</p>*/}
+          {/*<p>*/}
+          {/*  <FormLabel for="message">Your Message</FormLabel>*/}
+          {/*  <FormTextArea type="text" name="message" />*/}
+          {/*</p>*/}
+          {/*<p>*/}
+          {/*  <Button className="btn-link" text="Send Message" type="submit" />*/}
+          {/*</p>*/}
+              <label>
+                  Email
+                  <input type="email" name="email" />
+              </label>
+              <label>
+                  Name
+                  <input type="text" name="name" />
+              </label>
+              <label>
+                  Message
+                  <input type="text" name="message" />
+              </label>
         </form>
       </Form>
     </>

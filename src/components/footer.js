@@ -111,16 +111,6 @@ export default ({ children }) => {
   return (
     <Footer>
       <FooterSocial>
-        {socials.map((item, index) => {
-          return (
-            <li key={index}>
-              <a href={item.url}>
-                <span className="sr-only">{item.name}</span>
-                {item.icon}
-              </a>
-            </li>
-          )
-        })}
       </FooterSocial>
     </Footer>
   )

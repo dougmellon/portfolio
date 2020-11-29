@@ -3,6 +3,8 @@ import styled from "styled-components"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import "../scss/main.scss"
 import Logo from "../content/images/dm-logo.png"
+import {FaLinkedin} from "react-icons/fa";
+import { DiGithubBadge } from "react-icons/di"
 
 export default ({ children }) => {
   const [menuStatus, menuChange] = useState(false)
@@ -163,12 +165,13 @@ export default ({ children }) => {
             Menu
           </button>
           <nav className="nav-cont">
-            <ul>
+            <ul id="main-menu-links">
               <ListLink to="/">Home</ListLink>
               <ListLink to="/portfolio/">Portfolio</ListLink>
               <ListLink to="/journal/">Blog</ListLink>
               <ListLink to="/readings/">Readings</ListLink>
-              <ListLink to="/contact/">Contact</ListLink>
+              <ListLink to="https://www.linkedin.com/in/douglas-mellon/"><FaLinkedin class="main-menu-icons"/></ListLink>
+              <ListLink to="https://github.com/dougmellon"><DiGithubBadge class="main-menu-icons"/></ListLink>
             </ul>
           </nav>
         </header>
