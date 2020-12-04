@@ -7,9 +7,16 @@ const AboutPage = () => (
     <Seo title="Portfolio" />
     <div id="resume">
         <h4 class="name-h1">Doug Mellon</h4>
-      <h2>Fort Collins, CO, USA · Senior · Projected Graduation: Dec, 2021</h2>
+        <h2>Fort Collins, CO, USA · Senior</h2>
+        <h2>Projected Graduation: Dec, 2021</h2>
       <h2>Seeking an <span>internship</span> to begin in May, 2021</h2>
       <h2>Interested in <span>backend</span> roles.</h2>
+
+        <h1>Skills</h1>
+        <p>
+            Java, Python, Javascript, HTML, CSS, Node.js, React, Spring Boot, Django, OpenCV, PostgreSQL, MongoDB,
+            DigitalOcean, Docker, Nginx, Ubuntu / Debian, Arch
+        </p>
 
       <h1>Professional Work</h1>
       <h2><span>Undergraduate Research</span> - University of Northern Colorado <span>Nov 2020 - Present</span></h2>
@@ -19,7 +26,7 @@ const AboutPage = () => (
           fires in Colorado.
       </p>
 
-      <h2><span>Software Engineer - Intern</span> - Buderflys Tech, Inc <span>Apr 2020 -Aug 2020</span></h2>
+      <h2><span>Software Engineer (Intern)</span> - Buderflys Tech, Inc <span>Apr 2020 -Aug 2020</span></h2>
       <p>
           Was tasked with creating a dashboard to allow employees to log-in and add podcast and audiobook suggestions
           that would populate a recommendations section within a Shopify store.

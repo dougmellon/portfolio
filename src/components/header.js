@@ -167,7 +167,7 @@ export default ({ children }) => {
           <nav className="nav-cont">
             <ul id="main-menu-links">
               <ListLink to="/">Home</ListLink>
-              <ListLink to="/portfolio/">Portfolio</ListLink>
+              <ListLink to="/resume/">Resume</ListLink>
               <ListLink to="/journal/">Blog</ListLink>
               <ListLink to="/readings/">Readings</ListLink>
               <ListLink to="https://www.linkedin.com/in/douglas-mellon/"><FaLinkedin class="main-menu-icons"/></ListLink>
