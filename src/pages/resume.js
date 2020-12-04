@@ -9,7 +9,7 @@ const AboutPage = () => (
         <h4 class="name-h1">Doug Mellon</h4>
         <h2>Fort Collins, CO, USA</h2>
         <h2>Projected Graduation: Dec, 2021</h2>
-      <h2>Seeking an <span>internship</span> to begin in May, 2021</h2>
+      <h2>Seeking an <span>internship</span> to begin in May, 2021 (Will relocate or work remote)</h2>
       <h2>Interested in <span>backend</span> roles.</h2>
 
         <h1>Skills</h1>
