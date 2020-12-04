@@ -32,7 +32,7 @@ const AboutPage = () => (
           that would populate a recommendations section within a Shopify store.
       </p>
       <ul>
-          <li>Utilized Java and Spring Boot to build a RESTful API according to standards presented by Roy Fielding.</li>
+          <li>Utilized Java and Spring Boot to build a RESTful API according to standards presented by <a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">Roy Fielding.</a>a</li>
           <li>Designed and configured a PostgreSQL database, hosted on DigitalOcean, to store podcast recommendations.</li>
       </ul>
 
