@@ -177,3 +177,62 @@ a {
   width: auto !important;
   white-space: normal !important;
 }
+
+/* Portfolio styling */
+
+#resume > h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #268bd2;
+  -webkit-font-smoothing: antialiased;
+}
+
+#resume > h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0 0 0;
+  padding: 0;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+#resume > h2 {
+  font-size: 16px;
+  margin: 5px 0 0;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+}
+
+#resume > h3 {
+  font-size: 16px;
+  margin: 5px 0 0;
+  color: #555;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+}
+
+#resume > h2 > span {
+  font-weight: 600;
+}
+
+#resume > p {
+  font-size: 15px;
+  line-height: 1.5em;
+  margin: 5px 0;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+#resume > ul {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#resume > ul > li {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 5px 0;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+}
