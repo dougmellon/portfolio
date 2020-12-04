@@ -7,7 +7,7 @@ const AboutPage = () => (
     <Seo title="Portfolio" />
     <div id="resume">
         <h4 class="name-h1">Doug Mellon</h4>
-        <h2>Fort Collins, CO, USA · Senior</h2>
+        <h2>Fort Collins, CO, USA</h2>
         <h2>Projected Graduation: Dec, 2021</h2>
       <h2>Seeking an <span>internship</span> to begin in May, 2021</h2>
       <h2>Interested in <span>backend</span> roles.</h2>
