@@ -56,6 +56,15 @@ const AboutPage = () => (
           <li>Discrete Mathematics</li>
       </ul>
 
+        <h2><span>Udemy courses:</span></h2>
+        <p>Spring Framework 5: Beginner to Guru</p>
+        <ul>
+            <li>56.5 hours of lecture video. Developed a scheduling application using Spring Framework 5, Spring Boot 2, Spring MVC, Spring Data MongoDB, and Hibernate.</li>
+        </ul>
+        <p>The Complete Node.js Developer Course (3rd Edition)</p>
+        <ul>
+            <li>35 hours of lecture videos building real-world applications with Node, Express, MongoDB, Jest, ES6/ES7, JWT Authentication, Mongoose, and Postman.</li>
+        </ul>
       <h1>Open-source contributions</h1>
       <ul>
           <li><a href="https://github.com/mozilla/blurts-server/issues/1954">(Mozilla) Removed links to Firefox lockwise on firefox.com</a></li>
