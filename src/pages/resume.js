@@ -22,7 +22,7 @@ const AboutPage = () => (
       <h2><span>Undergraduate Research</span> - University of Northern Colorado <span>Nov 2020 - Present</span></h2>
       <p>
           I am currently conducting research on the use of autonomous drones in the detection, containment, and
-          extinguishing of Wildfires. Individually reached out to the university following the current record breaking
+          extinguishing of Wildfires. Individually reached out to, and received funding by, the university following the current record breaking
           fires in Colorado.
       </p>
 
