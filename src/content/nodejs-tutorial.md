@@ -79,3 +79,20 @@ dnf module install nodejs:VERSION_NUMBER
 Download the official [Windows installer](https://nodejs.org/en/#home-downloadhead) directly from the Node website.
 
 ## Building our first Node server
+Before we dig into a Node API, let's begin by building a simple web server. Start by opening up your favorite IDE or code editor and creating a new Javascript file named app.js. In the file, add the following:
+```javascript
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
