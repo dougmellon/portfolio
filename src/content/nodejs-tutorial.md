@@ -99,3 +99,5 @@ server.listen(port, hostname, () => {
 Let's break this down, line by line.
 
 You can think of Node modules as libraries that allow you to incorporate functionality into your application - similar to those you would find in other programming languages. The HTTP module that we require on line one allows us to make requests over the HyperText Transfer Protocol (HTTP). We are assigning this instance of the HTTP module as a const variable called http - meaning we can build off this instance as if it were any other object.
+
+We next initiate two variables to store the hostname and port that you wish to expose your application through. For local development, we will leave this at 127.0.0.1 and 3000.
