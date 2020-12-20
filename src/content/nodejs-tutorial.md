@@ -96,3 +96,6 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+Let's break this down, line by line.
+
+You can think of Node modules as libraries that allow you to incorporate functionality into your application - similar to those you would find in other programming languages. The HTTP module that we require on line one allows us to make requests over the HyperText Transfer Protocol (HTTP).
