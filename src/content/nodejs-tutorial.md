@@ -1,4 +1,13 @@
-#Creating and deploying a Node.js Rest API
+---
+title: Creating and deploying a Node.js Rest API
+description: A tutorial on building a Node API using MongoDB and deploying to DigitalOcean.
+date: 2020-12-20
+path: /node-mongodb-digitalocean-tutorial
+featuredImage: ./images/drone.jpg
+featuredImageAlt: "Dark abstract shapes"
+tags: ["programming"]
+author: Doug Mellon
+---
 ### A brief look into the history of Node
 Node.js, created by Ryan Dahl in 2009, is a response to what he considered limited capabilities with Apache HTTP Servers handling of concurrent connections. The project, which combined Google's V8 JavaScript engine, an event loop, and a low-level I/O API, was unveiled during the 2009 European JSConf. The following year, Isaac Schlueter, now the Principal Engineer at GitHub, introduced the NPM package manager - the largest software registry in the world having added its one-millionth package in 2019.
 
