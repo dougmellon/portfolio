@@ -3,7 +3,7 @@ title: Creating and deploying a Node.js Rest API
 description: A tutorial on building a Node API using MongoDB and deploying to DigitalOcean.
 date: 2020-12-20
 path: /node-mongodb-digitalocean-tutorial
-featuredImage: ./images/drone.jpg
+featuredImage: ./images/node_mongo_digitalocean.jpg
 featuredImageAlt: "Dark abstract shapes"
 tags: ["programming"]
 author: Doug Mellon
